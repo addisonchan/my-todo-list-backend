@@ -31,11 +31,13 @@ Run `cd docker_db`
 Run `docker-compose up`  
 **3. Check if the DB is running**  
 Open up a browser and put in this url: `http://localhost:8321/`. The user name and password can be find in [the docker compose yaml](./db_docker/docker-compose.yml). Remember to pick the "System" as PostgreSQL.  
+  
 ![db adminer](./screenshots/db_admin_login.png)  
 
 To run the DB for the second or latter time, we don't need to create or compose the docker again. You only need to check the name of the previously created container and start the container again.
 
 For example, run this command to check the DB container's name: `docker container ls -a`  
+  
 ![db container list](./screenshots/docker_container_list.png)  
 
 Then, run this docker command to start the container (**if the container name is "db_docker_db_1"**):  
