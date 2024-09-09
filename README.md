@@ -43,7 +43,7 @@ For example, run this command to check the DB container's name: `docker containe
 ![db container list](./screenshots/docker_container_list.png)  
 
 Then, run this docker command to start the container (**if the container name is "db_docker_db_1"**):  
-`docker start db_docker_db_1`
+`docker start db_docker_db_1`  
 To stop, run:  
 `docker stop db_docker_db_1`
 
