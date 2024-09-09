@@ -6,7 +6,11 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --cache && yarn prettier-check",
+    "lint-fix": "eslint . --cache --fix",
+    "prettier-check": "npx prettier --check .",
+    "prettier-fix": "npx prettier --write ."
   },
   "dependencies": {
     "cors": "^2.8.5",

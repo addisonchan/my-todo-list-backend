@@ -14,6 +14,7 @@ jest.mock('../models/todoModel', () => ({
 
 // Mock the PostgresError class
 jest.mock('postgres', () => ({
+  // eslint-disable-next-line @typescript-eslint/no-shadow
   PostgresError: class PostgresError extends Error {
     code: string
 
