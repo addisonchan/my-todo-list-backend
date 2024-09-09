@@ -1,6 +1,6 @@
 # my-todo-list-backend
 
-This is the repo for the rest API service and the DB part of the My Todo App. The repo for the frontend is [here](https://https://github.com/addisonchan/my-todo-list-frontend), and the spec of the API called by this frontend is [here](https://github.com/addisonchan/my-todo-list-service-pact)
+This is the repo for the rest API service and the DB part of the My Todo App. The repo for the frontend is [here](https://github.com/addisonchan/my-todo-list-frontend), and the spec of the API called by this frontend is [here](https://github.com/addisonchan/my-todo-list-service-pact)
 
 ## Overall Tech Design
 
