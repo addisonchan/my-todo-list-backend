@@ -27,8 +27,10 @@ Prior to any API service setup, we start the Postgresql DB first. To run the DB,
 
 **1. Go to `docker_db` directory**  
 Run `cd docker_db`  
+
 **2. Create and run docker container**  
 Run `docker-compose up`  
+
 **3. Check if the DB is running**  
 Open up a browser and put in this url: `http://localhost:8321/`. The user name and password can be find in [the docker compose yaml](./db_docker/docker-compose.yml). Remember to pick the "System" as PostgreSQL.  
   
