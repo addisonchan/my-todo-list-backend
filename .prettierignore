@@ -1,4 +1,5 @@
-# Ignore artifacts:
+# Ignore artifacts
+
 build
 coverage
 *.yml
@@ -8,4 +9,4 @@ coverage
 cdk.out
 dist
 *.wsdl
-
+README.md
