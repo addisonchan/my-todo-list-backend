@@ -25,11 +25,11 @@ Here are the steps to set up the front after the prerequsistes above are fulfill
 
 Prior to any API service setup, we start the Postgresql DB first. To run the DB, we need to be in the directory `docker_db`. Here is the DB setup steps:
 
-**1. Go to `docker_db` directory**
+**1. Go to `docker_db` directory**  
 Run `cd docker_db`
-**2. Create and run docker container**
+**2. Create and run docker container**  
 Run `docker-compose up`
-**3. Check if the DB is running**
+**3. Check if the DB is running**  
 Open up a browser and put in this url: `http://localhost:8321/`. The user name and password can be find in [the docker compose yaml](./db_docker/docker-compose.yml). Remember to pick the "System" as PostgreSQL.  
 ![db adminer](./screenshots/db_admin_login.png)  
 
@@ -38,27 +38,27 @@ To run the DB for the second or latter time, we don't need to create or compose 
 For example, run this command to check the DB container's name: `docker container ls -a`  
 ![db container list](./screenshots/docker_container_list.png)  
 
-Then, run this docker command to start the container (**if the container name is "db_docker_db_1"**):
+Then, run this docker command to start the container (**if the container name is "db_docker_db_1"**):  
 `docker start db_docker_db_1`
-To stop, run:
+To stop, run:  
 `docker stop db_docker_db_1`
 
 ### B. API Service
 
 After setting up the DB, we can proceed to the API service setup. Here are the steps.
 
-**1. Install all the node modules**
+**1. Install all the node modules**  
 Run this command: `npm install`
 Or this: `npm install --force`
 
-**2. Build the app**
+**2. Build the app**  
 Run `npm run build`
 
-**3. Serve the app**
+**3. Serve the app**  
 Run `npm run start`
 
-**4. Test the APIs**
-There are some sample curl commands can be tried to test the API service:
+**4. Test the APIs**  
+There are some sample curl commands can be tried to test the API service:  
 
 - Get all todos: `curl --location --request GET 'http://localhost:3000/api/todos'`
 - Create a todo: `curl --location --request POST 'http://localhost:3000/api/todos' \
