@@ -52,8 +52,7 @@ To stop, run:
 After setting up the DB, we can proceed to the API service setup. Here are the steps.
 
 **1. Install all the node modules**  
-Run this command: `npm install`
-Or this: `npm install --force`
+Run this command: `npm install --force`
 
 **2. Build the app**  
 Run `npm run build`
