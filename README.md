@@ -43,6 +43,7 @@ To check the table for the todo app, select the postgres db after login.
 ![table select](./screenshots/select_table.png)  
   
 To check the table schema, click the **todos**, the schema is then shown as:  
+  
 ![table schema](./screenshots/table_schema.png)  
 
 **4. Run the DB docker again**  
