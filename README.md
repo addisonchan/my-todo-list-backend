@@ -4,7 +4,7 @@ This is the repo for the rest API service and the DB part of the My Todo App. Th
 
 ## Overall Tech Design
 
-This is the diagram of the ovarall tech design.  
+This is the diagram of the overall tech design.  
 
 ![Tech Design Diagram](https://github.com/addisonchan/my-todo-list-service-pact/raw/main/my_todo_app_tech_design.jpg)  
 
