@@ -35,7 +35,17 @@ Run `docker-compose up`
 Open up a browser and put in this url: `http://localhost:8321/`. The user name and password can be find in [the docker compose yaml](./db_docker/docker-compose.yml). Remember to pick the "System" as PostgreSQL.  
   
 ![db adminer](./screenshots/db_admin_login.png)  
+  
+To check the table for the todo app, select the postgres db after login.
+  
+![db select](./screenshots/select_db.png)  
+  
+![table select](./screenshots/select_table.png)  
+  
+To check the table schema, click the **todos**, the schema is then shown as:  
+![table schema](./screenshots/table_schema.png)  
 
+**4. Run the DB docker again**  
 To run the DB for the second or latter time, we don't need to create or compose the docker again. You only need to check the name of the previously created container and start the container again.
 
 For example, run this command to check the DB container's name: `docker container ls -a`  
